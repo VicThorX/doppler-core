@@ -41,7 +41,8 @@ namespace DopplerCore.Api
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // do not use HTTPS in the App, this work will be done by the reverse-proxy
+            // app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
