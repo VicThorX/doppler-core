@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC8AC096-F3A8-4325-9213-AE22CA31D8D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DopplerCore.Api", "src\DopplerCore.Api\DopplerCore.Api.csproj", "{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{17082032-00EF-4B6A-B259-80657FF62CC4}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Debug|x64.Build.0 = Debug|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Debug|x86.Build.0 = Debug|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Release|x64.ActiveCfg = Release|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Release|x64.Build.0 = Release|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Release|x86.ActiveCfg = Release|Any CPU
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FBF6B5B-01DB-40F3-BF47-E5C08B2E36AB} = {EC8AC096-F3A8-4325-9213-AE22CA31D8D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6008B7AD-3AAF-41FD-AF14-7EE7DFFE1B90}
+	EndGlobalSection
+EndGlobal
